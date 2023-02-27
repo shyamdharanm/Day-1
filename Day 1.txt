@@ -1,0 +1,27 @@
+Day -1 Task
+Question 1.Write a blog on Difference between HTTP1.1 vs HTTP2
+Answer 
+•	Performance: HTTP/2 is designed to be faster and more efficient than HTTP/1.1. It achieves this by using a technique called multiplexing,
+        which allows multiple requests to be sent over a single connection, reducing the number of round trips required to load a web page.
+•	Compression: HTTP/2 supports header compression, which reduces the size of header information sent between the server and client, 
+        resulting in faster communication.
+•	Security: HTTP/2 requires the use of encryption, which helps to ensure that data is transmitted securely over the network. 
+        While HTTP/1.1 also supports encryption through HTTPS, it is not a requirement.
+
+
+Question 2. Write a blog about the objects and its internal representation in javascript
+
+•	Objects in programming can be a combination of variables, functions, and data structures
+
+•       each object may contain any combination of these primitive data-types as well as reference data-type
+JavaScript Object representation:
+
+let school = {
+name : “Shyamdharan”,
+location : “Erode”,
+DateOfBirth : “1997”
+}
+
+•      In the above example “name”, “location”, “DateOfBirth” are all “keys” and “shyamdharan”, “Erode” and "1997" are values of these keys respectively.
+
+       Each of these keys is referred to as properties of the object. 
